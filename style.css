@@ -1,18 +1,33 @@
 body {
+  padding: 2% 0;
   font-family: "Arial",sans-serif;
+  background-image: linear-gradient(90deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+#valSelection {
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 2vw;
 }
 p {
   text-align: center;
+  align: center;
+  background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 20px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 #first, #oper, #second, #equal, #res {
-  font-size: 800%;
+  font-size: 18vw;
   font-weight: bold;
   margin-right: 2%;
 }
 input{
+  width: 20%;
+  text-align: center;
+  background: transparent;
   display: inline-block;
-  border: 10px solid #ccc;
-  border-radius: 8px;
-  box-sizing: border-box;
+  border: 0.1em solid;
+  border-radius: 0.2em;
 }
-
