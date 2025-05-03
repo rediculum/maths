@@ -1,0 +1,18 @@
+body {
+  font-family: "Arial",sans-serif;
+}
+p {
+  text-align: center;
+}
+#first, #oper, #second, #equal, #res {
+  font-size: 800%;
+  font-weight: bold;
+  margin-right: 2%;
+}
+input{
+  display: inline-block;
+  border: 10px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
