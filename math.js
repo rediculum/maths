@@ -1,13 +1,13 @@
 function submitResult() {
   var inp = document.getElementById("res").value;
   if (inp == result) {
-    document.getElementById("message").innerHTML = "<img src=correct.jpg>";
+    document.getElementById("message").innerHTML = "<img src=correct.png>";
     new Audio('./correct.mp3').play()
     setTimeout(function(){
       location.reload()
     },2000);
   } else {
-    document.getElementById("message").innerHTML = "<img src=wrong.jpg>";
+    document.getElementById("message").innerHTML = "<img src=wrong.png>";
     new Audio('./wrong.mp3').play()
   }
 }
